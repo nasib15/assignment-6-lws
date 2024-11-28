@@ -1,4 +1,5 @@
 import DeliciousSection from "@/components/DeliciousSection";
+import HandPickedSection from "@/components/HandPickedSection";
 import Hero from "@/components/Hero";
 import PopularCategories from "@/components/PopularCategories";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <DeliciousSection />
       <PopularCategories />
+      <HandPickedSection />
     </main>
   );
 }

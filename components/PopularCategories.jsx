@@ -4,6 +4,7 @@ import Mailbox from "./Mailbox";
 const PopularCategories = () => {
   return (
     <>
+      {/* Popular categories */}
       <section class="mb-16">
         <div class="flex justify-between items-top">
           <h2 class="text-3xl font-bold mb-8">Popular Categories</h2>
@@ -92,6 +93,8 @@ const PopularCategories = () => {
           </div>
         </div>
       </section>
+
+      {/* Mailbox */}
       <Mailbox />
     </>
   );
