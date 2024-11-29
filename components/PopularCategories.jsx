@@ -1,6 +1,7 @@
 import { getPopularCategories } from "@/utils/getPopularCategories";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import Image from "next/image";
+import Link from "next/link";
 import Mailbox from "./Mailbox";
 
 const PopularCategories = () => {
@@ -12,9 +13,9 @@ const PopularCategories = () => {
       <section className="mb-16">
         <div className="flex justify-between items-top">
           <h2 className="text-3xl font-bold mb-8">Popular Categories</h2>
-          <a href="./category.html" className="text-orange-500">
+          <Link href="/categories" className="text-orange-500">
             View All
-          </a>
+          </Link>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
           {sortedCategories?.map((category) => (

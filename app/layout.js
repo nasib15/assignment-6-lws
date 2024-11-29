@@ -18,7 +18,7 @@ const playfair_display = Playfair_Display({
 });
 
 export const metadata = {
-  title: "LWS Kitchen",
+  title: "LWS Kitchen - Food Blog and Recipes",
   description: "This is a kitchen website",
 };
 

@@ -1,6 +1,7 @@
 import getCategories from "@/utils/getCategories";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import Image from "next/image";
+import Link from "next/link";
 
 const CategoriesPage = () => {
   const categories = getCategories();
@@ -13,13 +14,15 @@ const CategoriesPage = () => {
         {categories?.map((category) => (
           <div key={category.id} class="text-center">
             <div class="overflow-hidden rounded-full mb-4 relative cursor-pointer">
-              <Image
-                src={getThumbnailImage(category?.image)}
-                alt={category.title}
-                width={181}
-                height={181}
-                class="w-full h-auto transform transition-transform duration-300 ease-in-out hover:scale-110"
-              />
+              <Link href={`/categories/${category.name}`}>
+                <Image
+                  src={getThumbnailImage(category?.image)}
+                  alt={category.title}
+                  width={181}
+                  height={181}
+                  class="w-full h-auto transform transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </Link>
             </div>
             <h2 class="text-xl font-semibold">{category?.name}</h2>
           </div>
