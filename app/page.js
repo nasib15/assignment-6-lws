@@ -1,5 +1,4 @@
 import DeliciousSection from "@/components/DeliciousSection";
-import Footer from "@/components/Footer";
 import HandPickedSection from "@/components/HandPickedSection";
 import Hero from "@/components/Hero";
 import LatestRecipeSection from "@/components/LatestRecipeSection";
@@ -15,7 +14,6 @@ export default function Home() {
         <HandPickedSection />
         <LatestRecipeSection />
       </main>
-      <Footer />
     </>
   );
 }
