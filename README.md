@@ -1,4 +1,4 @@
-# Assignment - 4 (LWS)
+# Assignment - 6 (LWS)
 
 ## Live Link: https://lws-kitchen-assignment-6-lws.vercel.app/
 
