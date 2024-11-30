@@ -10,7 +10,7 @@ const HandPickedSection = () => {
   const recipes = getRecipes().slice(20, 22);
 
   return (
-    <section className="mb-16">
+    <section id="hand-picked" className="mb-16">
       <h2 className="text-3xl font-bold mb-8 animate-fade-in-down">
         Hand-Picked Collections
       </h2>
