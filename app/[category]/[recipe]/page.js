@@ -20,7 +20,9 @@ const RecipeDetailsPage = ({ params }) => {
 
   //   get all recipes except the current recipe
   const relatedRecipes = recipes?.filter(
-    (recipe) => recipe?.title !== params.recipe.replace(/-/g, " ")
+    (recipe) =>
+      recipe?.title.toLowerCase() !==
+      params.recipe.replace(/-/g, " ").toLowerCase()
   );
 
   return (
