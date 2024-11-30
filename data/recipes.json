@@ -336,5 +336,955 @@
     "cooking_time": "23 minutes",
     "author": "Arita Smith",
     "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.3
+    },
+    "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "description": "Discover the delicate flavors of pan-seared scallops with a lemon butter sauce. These perfectly caramelized scallops are sweet and tender, served with a light citrus sauce that enhances their natural taste. Perfect for a sophisticated dinner party or a romantic evening at home.",
+    "title": "Pan-Seared Scallops with Lemon Butter",
+    "published_date": "2024-03-18",
+    "cooking_time": "20 minutes",
+    "author": "Marcus Chen",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 19,
+      "average_rating": 4.1
+    },
+    "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "description": "Experience the taste of New England with our creamy lobster roll recipe. Fresh lobster meat tossed in a light mayo dressing with celery and herbs, served in a buttery toasted roll. This classic seafood sandwich brings the coastal flavors right to your kitchen.",
+    "title": "Classic New England Lobster Rolls",
+    "published_date": "2024-03-15",
+    "cooking_time": "25 minutes",
+    "author": "Sarah Collins",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 23,
+      "average_rating": 4.4
+    },
+    "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "description": "Master the art of grilling salmon with this Mediterranean-inspired recipe. The fish is marinated in olive oil, lemon, and herbs, then grilled to perfection. Served with a fresh cucumber-dill sauce, this dish brings together the best of land and sea.",
+    "title": "Mediterranean Grilled Salmon",
+    "published_date": "2024-03-12",
+    "cooking_time": "30 minutes",
+    "author": "Alex Peterson",
+    "thumbnail": "thumb-10.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 42,
+      "average_rating": 4.7
+    },
+    "category_id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+    "description": "Experience the ultimate classic cheeseburger with our perfected recipe. Hand-formed patties made from premium ground beef, topped with melted cheddar, crisp lettuce, ripe tomatoes, and our secret sauce. All served on a toasted brioche bun.",
+    "title": "Classic American Cheeseburger",
+    "published_date": "2024-03-15",
+    "cooking_time": "20 minutes",
+    "author": "James Wilson",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 35,
+      "average_rating": 4.5
+    },
+    "category_id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+    "description": "A gourmet twist on the traditional burger featuring blue cheese, caramelized onions, and arugula. The beef patty is seasoned with cracked black pepper and topped with a balsamic glaze that perfectly complements the tangy blue cheese.",
+    "title": "Blue Cheese and Caramelized Onion Burger",
+    "published_date": "2024-03-10",
+    "cooking_time": "30 minutes",
+    "author": "Sophie Laurent",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.3
+    },
+    "category_id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+    "description": "A healthier take on the classic burger using lean turkey meat seasoned with herbs and spices. Topped with avocado, sprouts, and a yogurt-based sauce, this burger proves that healthy can be delicious.",
+    "title": "Mediterranean Turkey Burger",
+    "published_date": "2024-03-05",
+    "cooking_time": "25 minutes",
+    "author": "Maria Garcia",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.4
+    },
+    "category_id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+    "description": "Inspired by Korean flavors, this fusion burger features a beef patty glazed with gochujang sauce, topped with kimchi slaw and sesame mayo. Served in a steamed bao-style bun for an exciting twist on the traditional burger.",
+    "title": "Korean BBQ Fusion Burger",
+    "published_date": "2024-02-28",
+    "cooking_time": "25 minutes",
+    "author": "David Kim",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "description": "Dive into this luxurious seafood stew featuring a medley of fresh clams, mussels, and white fish in a rich tomato-saffron broth. This Provençal-style bouillabaisse is finished with a touch of Pernod and served with crusty garlic bread for the perfect Mediterranean experience.",
+    "title": "Provençal Seafood Bouillabaisse",
+    "published_date": "2024-03-20",
+    "cooking_time": "55 minutes",
+    "author": "Pierre Laurent",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+    "description": "Experience the flavors of the Mediterranean with this juicy lamb burger. Seasoned with fresh mint, garlic, and Middle Eastern spices, topped with whipped feta, cucumber, and a homemade tzatziki sauce. Served in a warm pita pocket for an authentic touch.",
+    "title": "Mediterranean Lamb Burger",
+    "published_date": "2024-03-19",
+    "cooking_time": "30 minutes",
+    "author": "Elena Stavros",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 33,
+      "average_rating": 4.6
+    },
+    "category_id": "5f6g7h8i-9j0k-1l2m-3n4o-5p6q7r8s9t0u",
+    "description": "A comforting classic with a twist, this chicken pot pie features a flaky puff pastry crust and a creamy filling loaded with tender chicken, fresh vegetables, and aromatic herbs. Perfect for cozy family dinners.",
+    "title": "Homestyle Chicken Pot Pie",
+    "published_date": "2024-03-17",
+    "cooking_time": "55 minutes",
+    "author": "Rachel Morgan",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.4
+    },
+    "category_id": "5f6g7h8i-9j0k-1l2m-3n4o-5p6q7r8s9t0u",
+    "description": "Experience the bold flavors of India with this aromatic butter chicken. Tender chicken pieces are simmered in a rich, creamy tomato-based sauce with traditional spices. Serve with naan bread and basmati rice.",
+    "title": "Authentic Butter Chicken",
+    "published_date": "2024-03-12",
+    "cooking_time": "45 minutes",
+    "author": "Priya Sharma",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "5f6g7h8i-9j0k-1l2m-3n4o-5p6q7r8s9t0u",
+    "description": "A healthy and flavorful Mediterranean dish featuring chicken breasts stuffed with spinach, feta cheese, and sun-dried tomatoes. Served with a light lemon herb sauce.",
+    "title": "Mediterranean Stuffed Chicken",
+    "published_date": "2024-03-08",
+    "cooking_time": "40 minutes",
+    "author": "Marco Rossi",
+    "thumbnail": "thumb-10.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.5
+    },
+    "category_id": "8i9j0k1l-2m3n-4o5p-6q7r-8s9t0u1v2w3x",
+    "description": "A luxurious pasta dish featuring fresh seafood in a light white wine sauce. Linguine is tossed with succulent shrimp, clams, and mussels, finished with fresh parsley and a touch of lemon.",
+    "title": "Seafood Linguine with Vongole",
+    "published_date": "2024-03-15",
+    "cooking_time": "35 minutes",
+    "author": "Giuseppe Romano",
+    "thumbnail": "thumb-11.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.3
+    },
+    "category_id": "8i9j0k1l-2m3n-4o5p-6q7r-8s9t0u1v2w3x",
+    "description": "A vegetarian delight featuring orecchiette pasta with sautéed broccoli rabe, garlic, chili flakes, and topped with toasted breadcrumbs. Simple yet packed with flavor.",
+    "title": "Shell Pasta with Broccoli Rabe",
+    "published_date": "2024-03-10",
+    "cooking_time": "25 minutes",
+    "author": "Sofia Bianchi",
+    "thumbnail": "thumb-12.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 25,
+      "average_rating": 4.2
+    },
+    "category_id": "8i9j0k1l-2m3n-4o5p-6q7r-8s9t0u1v2w3x",
+    "description": "A hearty pasta bake combining rigatoni with a rich meat ragù, creamy béchamel sauce, and plenty of melted mozzarella. Perfect for feeding a crowd.",
+    "title": "Baked Rigatoni al Forno",
+    "published_date": "2024-03-05",
+    "cooking_time": "50 minutes",
+    "author": "Antonio Russo",
+    "thumbnail": "thumb-13.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 26,
+      "average_rating": 4.3
+    },
+    "category_id": "t0u1v2w3-x4y5-z6a7-b8c9-d0e1f2g3h4i5",
+    "description": "Start your day with this energizing blend of mixed berries, banana, and Greek yogurt. Packed with antioxidants and protein, this smoothie is perfect for a quick breakfast or post-workout boost.",
+    "title": "Berry Protein Power Smoothie",
+    "published_date": "2024-03-18",
+    "cooking_time": "5 minutes",
+    "author": "Emma Wright",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 22,
+      "average_rating": 4.4
+    },
+    "category_id": "t0u1v2w3-x4y5-z6a7-b8c9-d0e1f2g3h4i5",
+    "description": "A tropical paradise in a glass! This smoothie combines fresh mango, pineapple, and coconut milk for a creamy, refreshing treat that'll transport you to a beach vacation.",
+    "title": "Tropical Paradise Smoothie",
+    "published_date": "2024-03-15",
+    "cooking_time": "8 minutes",
+    "author": "Kai Malani",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 19,
+      "average_rating": 4.2
+    },
+    "category_id": "t0u1v2w3-x4y5-z6a7-b8c9-d0e1f2g3h4i5",
+    "description": "A nutrient-rich green smoothie featuring spinach, kale, apple, and ginger, sweetened naturally with honey. Perfect for a healthy detox or morning boost.",
+    "title": "Green Detox Smoothie",
+    "published_date": "2024-03-12",
+    "cooking_time": "7 minutes",
+    "author": "Jordan Lee",
+    "thumbnail": "thumb-6.jpg"
+  },
+
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.5
+    },
+    "category_id": "z6a7b8c9-d0e1-f2g3-h4i5-j6k7l8m9n0o1",
+    "description": "A protein-rich salad featuring grilled chicken, crisp romaine lettuce, homemade croutons, and shaved parmesan, all tossed in a classic Caesar dressing. A timeless favorite elevated with quality ingredients.",
+    "title": "Classic Grilled Chicken Caesar Salad",
+    "published_date": "2024-03-17",
+    "cooking_time": "20 minutes",
+    "author": "Thomas Reid",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "z6a7b8c9-d0e1-f2g3-h4i5-j6k7l8m9n0o1",
+    "description": "A colorful Asian-inspired salad featuring crunchy noodles, mandarin oranges, edamame, and a sesame-ginger dressing. Perfect for a light lunch or dinner side.",
+    "title": "Asian Crunch Noodle Salad",
+    "published_date": "2024-03-14",
+    "cooking_time": "15 minutes",
+    "author": "Lucy Chen",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 21,
+      "average_rating": 4.4
+    },
+    "category_id": "z6a7b8c9-d0e1-f2g3-h4i5-j6k7l8m9n0o1",
+    "description": "A hearty winter salad combining roasted butternut squash, candied pecans, dried cranberries, and feta cheese on a bed of mixed greens with maple balsamic dressing.",
+    "title": "Roasted Butternut Squash & Pecan Salad",
+    "published_date": "2024-03-10",
+    "cooking_time": "35 minutes",
+    "author": "Sarah Palmer",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.6
+    },
+    "category_id": "7f8d5a1c-9b3e-4a6f-8f1d-5c9a9e2b3d4e",
+    "description": "A rich and creamy mushroom soup made with a blend of wild mushrooms, fresh herbs, and a touch of cream. Perfect for cold winter evenings.",
+    "title": "Wild Mushroom Cream Soup",
+    "published_date": "2024-03-15",
+    "cooking_time": "40 minutes",
+    "author": "Claire Bennett",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.4
+    },
+    "category_id": "7f8d5a1c-9b3e-4a6f-8f1d-5c9a9e2b3d4e",
+    "description": "Classic French onion soup topped with crusty bread and melted Gruyère cheese. Slow-cooked caramelized onions create a deep, rich broth.",
+    "title": "Traditional French Onion Soup",
+    "published_date": "2024-03-10",
+    "cooking_time": "65 minutes",
+    "author": "Jean-Pierre Dubois",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "7f8d5a1c-9b3e-4a6f-8f1d-5c9a9e2b3d4e",
+    "description": "A hearty Italian soup packed with vegetables, beans, and pasta. This minestrone is both healthy and satisfying, perfect for any season.",
+    "title": "Rustic Italian Minestrone",
+    "published_date": "2024-03-05",
+    "cooking_time": "45 minutes",
+    "author": "Marco Rossi",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "7f8d5a1c-9b3e-4a6f-8f1d-5c9a9e2b3d4e",
+    "description": "A spicy Thai coconut soup with shrimp, mushrooms, and aromatic lemongrass. The perfect balance of sweet, sour, and spicy flavors.",
+    "title": "Thai Tom Kha Soup",
+    "published_date": "2024-02-28",
+    "cooking_time": "35 minutes",
+    "author": "Suki Thai",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 33,
+      "average_rating": 4.7
+    },
+    "category_id": "3a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o5p",
+    "description": "Light and fluffy Japanese-style pancakes that are extra tall and jiggly. Served with maple syrup and fresh berries.",
+    "title": "Japanese Souffle Pancakes",
+    "published_date": "2024-03-18",
+    "cooking_time": "30 minutes",
+    "author": "Yuki Tanaka",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 25,
+      "average_rating": 4.4
+    },
+    "category_id": "3a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o5p",
+    "description": "Savory pancakes filled with kimchi, vegetables, and topped with a spicy sauce. A Korean-inspired twist on traditional pancakes.",
+    "title": "Kimchi Vegetable Pancakes",
+    "published_date": "2024-03-12",
+    "cooking_time": "25 minutes",
+    "author": "Min-ji Kim",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.5
+    },
+    "category_id": "3a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o5p",
+    "description": "Healthy protein pancakes made with banana, oats, and protein powder. Perfect for a post-workout breakfast.",
+    "title": "Banana Protein Pancakes",
+    "published_date": "2024-03-08",
+    "cooking_time": "20 minutes",
+    "author": "Alex Fitness",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.6
+    },
+    "category_id": "3a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o5p",
+    "description": "Decadent chocolate pancakes with chocolate chips, topped with whipped cream and chocolate sauce. A chocolate lover's dream breakfast.",
+    "title": "Triple Chocolate Pancakes",
+    "published_date": "2024-03-02",
+    "cooking_time": "25 minutes",
+    "author": "Bella Sweet",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 34,
+      "average_rating": 4.8
+    },
+    "category_id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
+    "description": "A perfectly seared ribeye steak with a garlic herb butter sauce. Learn the secrets to achieving steakhouse quality results at home.",
+    "title": "Perfect Ribeye Steak",
+    "published_date": "2024-03-18",
+    "cooking_time": "25 minutes",
+    "author": "Gordon Mitchell",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
+    "description": "Slow-roasted lamb shoulder with rosemary and garlic, cooked until tender and falling off the bone. Served with roasted vegetables.",
+    "title": "Rosemary Garlic Lamb Shoulder",
+    "published_date": "2024-03-12",
+    "cooking_time": "4 hours",
+    "author": "Jamie Peters",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 26,
+      "average_rating": 4.3
+    },
+    "category_id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
+    "description": "Juicy pork tenderloin wrapped in prosciutto and stuffed with herbs and mushrooms. A elegant yet simple main course.",
+    "title": "Prosciutto-Wrapped Pork Tenderloin",
+    "published_date": "2024-03-08",
+    "cooking_time": "45 minutes",
+    "author": "Isabella Romano",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.6
+    },
+    "category_id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
+    "description": "Korean-style short ribs marinated in a sweet and savory sauce, grilled to perfection. Served with rice and kimchi.",
+    "title": "Korean BBQ Short Ribs (Galbi)",
+    "published_date": "2024-03-05",
+    "cooking_time": "1 hour",
+    "author": "David Kim",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 38,
+      "average_rating": 4.7
+    },
+    "category_id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+    "description": "Classic Neapolitan pizza with San Marzano tomatoes, fresh mozzarella, and basil. Learn the authentic Italian technique.",
+    "title": "Authentic Margherita Pizza",
+    "published_date": "2024-03-15",
+    "cooking_time": "30 minutes",
+    "author": "Marco Rossi",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 32,
+      "average_rating": 4.5
+    },
+    "category_id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+    "description": "A white pizza topped with four Italian cheeses, garlic, and fresh herbs. No tomato sauce needed for this creamy delight.",
+    "title": "Quattro Formaggi White Pizza",
+    "published_date": "2024-03-10",
+    "cooking_time": "25 minutes",
+    "author": "Sofia Bianchi",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.4
+    },
+    "category_id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+    "description": "BBQ chicken pizza with red onions, cilantro, and a blend of cheeses. A perfect fusion of BBQ and pizza flavors.",
+    "title": "BBQ Chicken Pizza",
+    "published_date": "2024-03-05",
+    "cooking_time": "35 minutes",
+    "author": "Tyler Brooks",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.3
+    },
+    "category_id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+    "description": "A vegetarian pizza loaded with mushrooms, bell peppers, olives, and artichokes. Topped with fresh arugula after baking.",
+    "title": "Mediterranean Veggie Pizza",
+    "published_date": "2024-02-28",
+    "cooking_time": "30 minutes",
+    "author": "Elena Costa",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 42,
+      "average_rating": 4.8
+    },
+    "category_id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+    "description": "A classic three-layer chocolate cake with rich chocolate buttercream frosting. Perfect for celebrations.",
+    "title": "Triple Layer Chocolate Cake",
+    "published_date": "2024-03-17",
+    "cooking_time": "1 hour",
+    "author": "Sarah Baker",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 35,
+      "average_rating": 4.6
+    },
+    "category_id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+    "description": "Light and fluffy vanilla cake filled with fresh strawberries and whipped cream. A spring favorite.",
+    "title": "Strawberry Shortcake",
+    "published_date": "2024-03-12",
+    "cooking_time": "45 minutes",
+    "author": "Emma White",
+    "thumbnail": "thumb-10.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.5
+    },
+    "category_id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+    "description": "Moist carrot cake with cream cheese frosting, topped with candied pecans. A perfect balance of spices and sweetness.",
+    "title": "Classic Carrot Cake",
+    "published_date": "2024-03-08",
+    "cooking_time": "55 minutes",
+    "author": "Rachel Green",
+    "thumbnail": "thumb-11.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.4
+    },
+    "category_id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+    "description": "A rich red velvet cake with cream cheese frosting and chocolate shavings. Perfect for special occasions.",
+    "title": "Red Velvet Dream Cake",
+    "published_date": "2024-03-05",
+    "cooking_time": "50 minutes",
+    "author": "Michael Scott",
+    "thumbnail": "thumb-12.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 36,
+      "average_rating": 4.7
+    },
+    "category_id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+    "description": "Buttery, flaky croissants made from scratch using traditional French lamination techniques. Perfect for breakfast or brunch.",
+    "title": "Classic French Croissants",
+    "published_date": "2024-03-18",
+    "cooking_time": "3 hours",
+    "author": "Pierre Dubois",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+    "description": "Light and airy cream puffs filled with vanilla pastry cream and topped with chocolate ganache. A classic French patisserie favorite.",
+    "title": "Choux a la Creme",
+    "published_date": "2024-03-15",
+    "cooking_time": "1 hour",
+    "author": "Marie Laurent",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.6
+    },
+    "category_id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+    "description": "Portuguese custard tarts with crispy, flaky pastry and creamy vanilla custard filling, topped with a caramelized surface.",
+    "title": "Portuguese Custard Tarts",
+    "published_date": "2024-03-10",
+    "cooking_time": "45 minutes",
+    "author": "João Silva",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.4
+    },
+    "category_id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+    "description": "Danish pastries filled with almond cream and fresh berries, topped with sliced almonds and a sweet glaze.",
+    "title": "Berry Almond Danish",
+    "published_date": "2024-03-05",
+    "cooking_time": "2 hours",
+    "author": "Anna Nielsen",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 33,
+      "average_rating": 4.6
+    },
+    "category_id": "n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9",
+    "description": "Creamy mushroom and spinach risotto made with arborio rice and nutritional yeast for a rich, dairy-free experience.",
+    "title": "Vegan Mushroom Risotto",
+    "published_date": "2024-03-17",
+    "cooking_time": "40 minutes",
+    "author": "Luna Green",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.4
+    },
+    "category_id": "n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9",
+    "description": "Crispy cauliflower wings tossed in buffalo sauce, served with vegan ranch dressing. Perfect for game day!",
+    "title": "Buffalo Cauliflower Wings",
+    "published_date": "2024-03-12",
+    "cooking_time": "35 minutes",
+    "author": "Alex Plant",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.5
+    },
+    "category_id": "n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9",
+    "description": "Rich and creamy chocolate mousse made with aquafaba and dark chocolate. A decadent dessert that's completely plant-based.",
+    "title": "Vegan Chocolate Mousse",
+    "published_date": "2024-03-08",
+    "cooking_time": "20 minutes",
+    "author": "Sarah Bloom",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 26,
+      "average_rating": 4.3
+    },
+    "category_id": "n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9",
+    "description": "Hearty lentil shepherd's pie topped with creamy mashed potatoes. A comforting classic made plant-based.",
+    "title": "Lentil Shepherd Pie",
+    "published_date": "2024-03-05",
+    "cooking_time": "1 hour",
+    "author": "Oliver Greens",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 37,
+      "average_rating": 4.8
+    },
+    "category_id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+    "description": "Classic French crème brûlée with a perfectly caramelized sugar top and silky smooth custard beneath.",
+    "title": "Classic Vanilla Crème Brûlée",
+    "published_date": "2024-03-18",
+    "cooking_time": "45 minutes",
+    "author": "Claire Dubois",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 32,
+      "average_rating": 4.6
+    },
+    "category_id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+    "description": "Warm chocolate lava cakes with a gooey center, served with vanilla ice cream and fresh berries.",
+    "title": "Molten Chocolate Lava Cakes",
+    "published_date": "2024-03-15",
+    "cooking_time": "25 minutes",
+    "author": "Marcus Sweet",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+    "description": "Light and airy tiramisu made with layers of coffee-soaked ladyfingers and mascarpone cream.",
+    "title": "Italian Tiramisu",
+    "published_date": "2024-03-12",
+    "cooking_time": "30 minutes",
+    "author": "Sofia Romano",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 26,
+      "average_rating": 4.4
+    },
+    "category_id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+    "description": "Traditional apple strudel with flaky phyllo dough, spiced apples, and raisins. Served warm with vanilla sauce.",
+    "title": "Austrian Apple Strudel",
+    "published_date": "2024-03-08",
+    "cooking_time": "1 hour",
+    "author": "Hans Weber",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 34,
+      "average_rating": 4.7
+    },
+    "category_id": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+    "description": "Eggs Benedict with perfectly poached eggs, Canadian bacon, and hollandaise sauce on toasted English muffins.",
+    "title": "Eggs Benedict",
+    "published_date": "2024-03-17",
+    "cooking_time": "30 minutes",
+    "author": "James Cook",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.5
+    },
+    "category_id": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+    "description": "Overnight oats with chia seeds, almond milk, and topped with fresh fruits and honey.",
+    "title": "Berry Chia Overnight Oats",
+    "published_date": "2024-03-14",
+    "cooking_time": "8 hours",
+    "author": "Emma Health",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.4
+    },
+    "category_id": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+    "description": "Shakshuka with eggs poached in a spiced tomato sauce, served with fresh herbs and crusty bread.",
+    "title": "Mediterranean Shakshuka",
+    "published_date": "2024-03-10",
+    "cooking_time": "25 minutes",
+    "author": "Nora Mediterranean",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 25,
+      "average_rating": 4.3
+    },
+    "category_id": "w3x4y5z6-a7b8-c9d0-e1f2-g3h4i5j6k7l8",
+    "description": "Homemade granola with nuts, seeds, and dried fruits, served with Greek yogurt and honey.",
+    "title": "Nutty Homemade Granola",
+    "published_date": "2024-03-07",
+    "cooking_time": "40 minutes",
+    "author": "Lisa Healthy",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 33,
+      "average_rating": 4.6
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "Classic Reuben sandwich with corned beef, Swiss cheese, sauerkraut, and Russian dressing on rye bread.",
+    "title": "New York Style Reuben",
+    "published_date": "2024-03-16",
+    "cooking_time": "15 minutes",
+    "author": "David NYC",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 30,
+      "average_rating": 4.5
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "Vietnamese banh mi with pork, pickled vegetables, cilantro, and spicy mayo on a crusty baguette.",
+    "title": "Vietnamese Pork Sandwich",
+    "published_date": "2024-03-13",
+    "cooking_time": "25 minutes",
+    "author": "Mai Nguyen",
+    "thumbnail": "thumb-10.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.4
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "Grilled cheese with three types of cheese, caramelized onions, and fig jam on sourdough bread.",
+    "title": "Gourmet Grilled Cheese",
+    "published_date": "2024-03-09",
+    "cooking_time": "20 minutes",
+    "author": "Charlie Cheese",
+    "thumbnail": "thumb-11.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "Mediterranean veggie sandwich with hummus, grilled vegetables, feta, and olive tapenade.",
+    "title": "Mediterranean Veggie Sandwich",
+    "published_date": "2024-03-06",
+    "cooking_time": "15 minutes",
+    "author": "Elena Greek",
+    "thumbnail": "thumb-12.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 35,
+      "average_rating": 4.7
+    },
+    "category_id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+    "description": "Light and crispy Belgian waffles topped with fresh berries, whipped cream, and pure maple syrup. The perfect weekend breakfast.",
+    "title": "Belgian Waffles",
+    "published_date": "2024-03-18",
+    "cooking_time": "25 minutes",
+    "author": "Marie Brussels",
+    "thumbnail": "thumb-1.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+    "description": "Savory waffles made with cheddar cheese and chives, topped with fried chicken and honey butter. A delicious twist on chicken and waffles.",
+    "title": "Cheesy Chicken and Waffles",
+    "published_date": "2024-03-15",
+    "cooking_time": "45 minutes",
+    "author": "Sam Southern",
+    "thumbnail": "thumb-2.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 27,
+      "average_rating": 4.4
+    },
+    "category_id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+    "description": "Chocolate waffles with chocolate chips, served with Nutella, banana slices, and chocolate sauce. A chocolate lover's dream breakfast.",
+    "title": "Triple Chocolate Waffles",
+    "published_date": "2024-03-12",
+    "cooking_time": "30 minutes",
+    "author": "Bella Cocoa",
+    "thumbnail": "thumb-3.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 24,
+      "average_rating": 4.3
+    },
+    "category_id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+    "description": "Healthy whole grain waffles made with oats and almond flour, topped with Greek yogurt and honey. Perfect for a nutritious start.",
+    "title": "Whole Grain Power Waffles",
+    "published_date": "2024-03-08",
+    "cooking_time": "25 minutes",
+    "author": "Hannah Health",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 38,
+      "average_rating": 4.8
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "Traditional tonkotsu ramen with rich pork bone broth, chashu pork, soft-boiled egg, and fresh noodles. A bowl of pure comfort.",
+    "title": "Soy Sauce Vegetable Ramen",
+    "published_date": "2024-03-17",
+    "cooking_time": "12 hours",
+    "author": "Kenji Tanaka",
+    "thumbnail": "thumb-5.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 32,
+      "average_rating": 4.6
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "Spicy miso ramen with ground pork, corn, butter, and a rich miso-based broth. A warming bowl of Hokkaido-style ramen.",
+    "title": "Spicy Miso Ramen",
+    "published_date": "2024-03-14",
+    "cooking_time": "2 hours",
+    "author": "Yuki Sato",
+    "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 29,
+      "average_rating": 4.5
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "Vegetarian ramen with mushroom dashi, tofu, bamboo shoots, and seasonal vegetables. A light yet satisfying bowl.",
+    "title": "Vegetable Shoyu Ramen",
+    "published_date": "2024-03-10",
+    "cooking_time": "1.5 hours",
+    "author": "Mari Zen",
+    "thumbnail": "thumb-7.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 26,
+      "average_rating": 4.4
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "Chicken-based ramen with a light and clear broth, tender chicken pieces, and spinach. A healthier take on traditional ramen.",
+    "title": "Light Chicken Ramen",
+    "published_date": "2024-03-07",
+    "cooking_time": "1 hour",
+    "author": "Hiro Yamamoto",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 34,
+      "average_rating": 4.7
+    },
+    "category_id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+    "description": "Creamy spinach and artichoke dip with three cheeses, served hot with tortilla chips or crusty bread. Perfect party appetizer.",
+    "title": "Hot Spinach Artichoke Dip",
+    "published_date": "2024-03-16",
+    "cooking_time": "35 minutes",
+    "author": "Lisa Party",
+    "thumbnail": "thumb-9.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 31,
+      "average_rating": 4.6
+    },
+    "category_id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+    "description": "Classic Lebanese hummus made with chickpeas, tahini, lemon, and garlic. Topped with olive oil and paprika.",
+    "title": "Authentic Lebanese Hummus",
+    "published_date": "2024-03-13",
+    "cooking_time": "15 minutes",
+    "author": "Zain Lebanese",
+    "thumbnail": "thumb-10.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 28,
+      "average_rating": 4.5
+    },
+    "category_id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+    "description": "Fresh guacamole with ripe avocados, lime, cilantro, and just the right amount of spice. Perfect with tortilla chips.",
+    "title": "Fresh Mexican Guacamole",
+    "published_date": "2024-03-09",
+    "cooking_time": "10 minutes",
+    "author": "Carlos Mexican",
+    "thumbnail": "thumb-11.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 25,
+      "average_rating": 4.4
+    },
+    "category_id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+    "description": "Smoky roasted eggplant dip with tahini, garlic, and lemon juice. A Middle Eastern classic served with pita bread.",
+    "title": "Smoky Eggplant Dip",
+    "published_date": "2024-03-06",
+    "cooking_time": "45 minutes",
+    "author": "Fatima Middle",
+    "thumbnail": "thumb-12.jpg"
   }
 ]

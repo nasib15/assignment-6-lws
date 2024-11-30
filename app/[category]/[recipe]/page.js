@@ -123,18 +123,20 @@ const RecipeDetailsPage = ({ params }) => {
         <section className="my-12">
           <h2 className="text-3xl font-bold mb-8">You might also like</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {relatedRecipes?.map((recipe) => (
-              <div key={recipe?.title}>
-                <Link href={`/${category}/${recipe?.title}`}>
-                  <Image
-                    src={getThumbnailImage(recipe?.thumbnail)}
-                    alt={recipe?.title}
-                    className="w-full h-60 object-cover rounded-lg mb-2"
-                  />
-                </Link>
-                <h3 className="font-semibold">{recipe?.title}</h3>
-              </div>
-            ))}
+            {relatedRecipes
+              ?.map((recipe) => (
+                <div key={recipe?.title}>
+                  <Link href={`/${category}/${recipe?.title}`}>
+                    <Image
+                      src={getThumbnailImage(recipe?.thumbnail)}
+                      alt={recipe?.title}
+                      className="w-full h-60 object-cover rounded-lg mb-2"
+                    />
+                  </Link>
+                  <h3 className="font-semibold">{recipe?.title}</h3>
+                </div>
+              ))
+              ?.slice(0, 4)}
           </div>
         </section>
       )}
