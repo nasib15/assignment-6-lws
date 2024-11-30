@@ -3,13 +3,14 @@ import avatar from "@/public/assets/profile.png";
 import { getRecipesByCategory } from "@/utils/getRecipesByCategory";
 import { getSingleRecipeByCategory } from "@/utils/getSingleRecipeByCategory";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
+import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
 
 const RecipeDetailsPage = ({ params }) => {
   const recipe = getSingleRecipeByCategory(
     params.category,
-    params.recipe.replace(/%20/g, " ").replace(/%3A/g, ":")
+    params.recipe.replace(/-/g, " ")
   );
 
   const { category } = params;
@@ -19,8 +20,7 @@ const RecipeDetailsPage = ({ params }) => {
 
   //   get all recipes except the current recipe
   const relatedRecipes = recipes?.filter(
-    (recipe) =>
-      recipe?.title !== params.recipe.replace(/%20/g, " ").replace(/%3A/g, ":")
+    (recipe) => recipe?.title !== params.recipe.replace(/-/g, " ")
   );
 
   return (
@@ -127,7 +127,7 @@ const RecipeDetailsPage = ({ params }) => {
               ?.map((recipe) => (
                 <Link
                   key={recipe?.title}
-                  href={`/${category}/${recipe?.title}`}
+                  href={`/${category}/${getTitleByHyphen(recipe?.title)}`}
                 >
                   <div>
                     <Image

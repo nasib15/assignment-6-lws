@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <a href="/index.html" className="text-3xl font-bold">
+            <Link href="/" className="text-3xl font-bold">
               <Image
                 width={102}
                 height={40}
                 src={"/assets/lws-kitchen.png"}
                 alt="logo"
               />
-            </a>
+            </Link>
             <p className="text-gray-600 mt-2 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -25,24 +25,24 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">LWS Kitchen</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Contact us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Feedback
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -50,24 +50,24 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Terms
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Cookies
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link href="#" className="text-gray-600 hover:text-orange-500">
                   Copyright
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -75,24 +75,40 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Follow</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link
+                  href="https://facebook.com"
+                  className="text-gray-600 hover:text-orange-500"
+                  target="_blank"
+                >
                   Facebook
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link
+                  href="https://twitter.com"
+                  className="text-gray-600 hover:text-orange-500"
+                  target="_blank"
+                >
                   Twitter
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link
+                  href="https://instagram.com"
+                  className="text-gray-600 hover:text-orange-500"
+                  target="_blank"
+                >
                   Instagram
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-500">
+                <Link
+                  href="https://youtube.com"
+                  className="text-gray-600 hover:text-orange-500"
+                  target="_blank"
+                >
                   Youtube
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

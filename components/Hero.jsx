@@ -1,6 +1,7 @@
 import getCategories from "@/utils/getCategories";
 import getRecipes from "@/utils/getRecipes";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
+import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +34,7 @@ const Hero = () => {
           <h1 className="text-4xl font-bold mb-4">{title}</h1>
           <p className="text-gray-600 mb-4">{description}</p>
           <Link
-            href={`/${heroCategoryName}/${title}`}
+            href={`/${heroCategoryName}/${getTitleByHyphen(title)}`}
             className="bg-orange-500 text-white px-6 py-2 rounded-full inline-block hover:bg-orange-600"
           >
             View Recipe

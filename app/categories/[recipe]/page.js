@@ -1,6 +1,7 @@
 import { getCategoryName } from "@/utils/getCategoryName";
 import { getRecipesByCategory } from "@/utils/getRecipesByCategory";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
+import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +34,9 @@ const RecipePage = ({ params }) => {
         {recipes?.map((recipe, index) => (
           <Link
             key={index}
-            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
+            href={`/${getCategoryName(recipe.category_id)}/${getTitleByHyphen(
+              recipe.title
+            )}`}
           >
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <Image

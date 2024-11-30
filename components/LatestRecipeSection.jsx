@@ -1,6 +1,7 @@
 import { getCategoryName } from "@/utils/getCategoryName";
 import getLatestRecipes from "@/utils/getLatestRecipes";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
+import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,7 +14,9 @@ const LatestRecipeSection = () => {
       <div className="grid md:grid-cols-4 gap-8">
         {latestRecipes?.map((recipe, index) => (
           <Link
-            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
+            href={`/${getCategoryName(recipe.category_id)}/${getTitleByHyphen(
+              recipe.title
+            )}`}
             key={index}
           >
             <div>

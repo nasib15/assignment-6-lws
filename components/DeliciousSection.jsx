@@ -1,6 +1,7 @@
 import { getCategoryName } from "@/utils/getCategoryName";
 import { getSortedRatingRecipes } from "@/utils/getSortedRatingRecipes";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
+import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
 import { StarIcon } from "./Icons/SVG";
@@ -14,7 +15,9 @@ const DeliciousSection = () => {
       <div className="grid md:grid-cols-3 gap-8">
         {sortedRatingRecipes?.map((recipe, index) => (
           <Link
-            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
+            href={`/${getCategoryName(recipe.category_id)}/${getTitleByHyphen(
+              recipe.title
+            )}`}
             key={index}
           >
             <div>
@@ -32,6 +35,9 @@ const DeliciousSection = () => {
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
+                <span className="text-gray-500 text-sm ml-1">
+                  ({recipe.rating?.rating_count})
+                </span>
               </div>
               <p className="text-gray-600">{recipe.cooking_time}</p>
             </div>
@@ -41,4 +47,5 @@ const DeliciousSection = () => {
     </section>
   );
 };
+
 export default DeliciousSection;
