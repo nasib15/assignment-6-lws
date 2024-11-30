@@ -5,7 +5,7 @@ const recipes = getRecipes();
 
 const categories = getCategories();
 
-export const getRecipeByCategory = (categoryName) => {
+export const getRecipesByCategory = (categoryName) => {
   const categoryId = categories.find(
     (category) => category.name === categoryName
   )?.id;

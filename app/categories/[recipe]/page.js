@@ -1,11 +1,11 @@
-import { getRecipeByCategory } from "@/utils/getRecipeByCategory";
+import { getRecipesByCategory } from "@/utils/getRecipesByCategory";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import Image from "next/image";
 
 const RecipePage = ({ params }) => {
   const { recipe } = params;
 
-  const recipes = getRecipeByCategory(recipe);
+  const recipes = getRecipesByCategory(recipe);
 
   return (
     <main className="container mx-auto px-4 py-8 mt-[100px]">
