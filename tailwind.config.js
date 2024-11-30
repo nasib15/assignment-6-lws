@@ -11,6 +11,9 @@ module.exports = {
         inter: ["var(--font-inter)"],
         playfair: ["var(--font-playfair)"],
       },
+      animation: {
+        spin: "spin 1s linear infinite",
+      },
     },
   },
   plugins: [],

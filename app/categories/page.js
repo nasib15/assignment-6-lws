@@ -12,9 +12,9 @@ const CategoriesPage = () => {
       {/* category list */}
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {categories?.map((category) => (
-          <div key={category.id} className="text-center">
-            <div className="overflow-hidden rounded-full mb-4 relative cursor-pointer">
-              <Link href={`/categories/${category.name}`}>
+          <Link key={category.id} href={`/categories/${category.name}`}>
+            <div className="text-center">
+              <div className="overflow-hidden rounded-full mb-4 relative cursor-pointer">
                 <Image
                   src={getThumbnailImage(category?.image)}
                   alt={category.title}
@@ -22,10 +22,10 @@ const CategoriesPage = () => {
                   height={181}
                   className="w-full h-auto transform transition-transform duration-300 ease-in-out hover:scale-110"
                 />
-              </Link>
+              </div>
+              <h2 className="text-xl font-semibold">{category?.name}</h2>
             </div>
-            <h2 className="text-xl font-semibold">{category?.name}</h2>
-          </div>
+          </Link>
         ))}
       </div>
     </main>

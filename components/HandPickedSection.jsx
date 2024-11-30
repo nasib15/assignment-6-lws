@@ -14,30 +14,28 @@ const HandPickedSection = () => {
       </h2>
       <div className="grid md:grid-cols-2 gap-8">
         {recipes?.map((recipe, index) => (
-          <div
+          <Link
             key={index}
-            className="relative group overflow-hidden rounded-lg transition-transform duration-300 ease-in-out transform cursor-pointer"
+            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
           >
-            <Link
-              href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
-            >
+            <div className="relative group overflow-hidden rounded-lg transition-transform duration-300 ease-in-out transform cursor-pointer">
               <Image
                 src={getThumbnailImage(recipe?.thumbnail)}
                 alt={recipe.title}
                 className="rounded-lg object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                 style={{ width: "600px", height: "400px" }}
               />
-            </Link>
-            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg transition-all duration-300 ease-in-out transform translate-y-full group-hover:translate-y-0">
-              <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
-              <a
-                href="./recipes.html"
-                className="text-orange-300 hover:underline"
-              >
-                View Collection
-              </a>
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg transition-all duration-300 ease-in-out transform translate-y-full group-hover:translate-y-0">
+                <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
+                <Link
+                  href={`/categories/${getCategoryName(recipe.category_id)}`}
+                  className="text-orange-300 hover:underline"
+                >
+                  View Collection
+                </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

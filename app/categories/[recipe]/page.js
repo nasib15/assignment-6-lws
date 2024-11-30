@@ -31,13 +31,11 @@ const RecipePage = ({ params }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* recipe card */}
         {recipes?.map((recipe, index) => (
-          <div
+          <Link
             key={index}
-            className="bg-white rounded-lg overflow-hidden shadow-md"
+            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
           >
-            <Link
-              href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
-            >
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <Image
                 src={getThumbnailImage(recipe?.thumbnail)}
                 alt={recipe?.title}
@@ -45,11 +43,11 @@ const RecipePage = ({ params }) => {
                 width={300}
                 height={192}
               />
-            </Link>
-            <div className="p-4">
-              <h2 className="font-semibold text-lg mb-2">{recipe?.title}</h2>
+              <div className="p-4">
+                <h2 className="font-semibold text-lg mb-2">{recipe?.title}</h2>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </main>

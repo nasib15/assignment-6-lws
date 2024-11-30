@@ -125,16 +125,19 @@ const RecipeDetailsPage = ({ params }) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {relatedRecipes
               ?.map((recipe) => (
-                <div key={recipe?.title}>
-                  <Link href={`/${category}/${recipe?.title}`}>
+                <Link
+                  key={recipe?.title}
+                  href={`/${category}/${recipe?.title}`}
+                >
+                  <div>
                     <Image
                       src={getThumbnailImage(recipe?.thumbnail)}
                       alt={recipe?.title}
                       className="w-full h-60 object-cover rounded-lg mb-2"
                     />
-                  </Link>
-                  <h3 className="font-semibold">{recipe?.title}</h3>
-                </div>
+                    <h3 className="font-semibold">{recipe?.title}</h3>
+                  </div>
+                </Link>
               ))
               ?.slice(0, 4)}
           </div>

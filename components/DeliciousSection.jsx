@@ -13,10 +13,11 @@ const DeliciousSection = () => {
       <h2 className="text-3xl font-bold mb-8">Super Delicious</h2>
       <div className="grid md:grid-cols-3 gap-8">
         {sortedRatingRecipes?.map((recipe, index) => (
-          <div key={index}>
-            <Link
-              href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
-            >
+          <Link
+            href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
+            key={index}
+          >
+            <div>
               <Image
                 src={getThumbnailImage(recipe.thumbnail)}
                 width={300}
@@ -24,17 +25,17 @@ const DeliciousSection = () => {
                 alt={recipe.title}
                 className="w-full h-[300px] object-cover rounded-lg mb-4"
               />
-            </Link>
-            <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
-            <div className="flex items-center text-yellow-500 mb-2">
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
+              <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
+              <div className="flex items-center text-yellow-500 mb-2">
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+              </div>
+              <p className="text-gray-600">{recipe.cooking_time}</p>
             </div>
-            <p className="text-gray-600">{recipe.cooking_time}</p>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
