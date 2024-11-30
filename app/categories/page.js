@@ -12,7 +12,10 @@ const CategoriesPage = () => {
       {/* category list */}
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {categories?.map((category) => (
-          <Link key={category.id} href={`/categories/${category.name}`}>
+          <Link
+            key={category.id}
+            href={`/categories/${category.name.toLowerCase()}`}
+          >
             <div className="text-center">
               <div className="overflow-hidden rounded-full mb-4 relative cursor-pointer">
                 <Image

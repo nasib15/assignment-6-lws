@@ -19,7 +19,10 @@ const PopularCategories = () => {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
           {sortedCategories?.map((category) => (
-            <Link href={`/categories/${category.name}`} key={category.id}>
+            <Link
+              href={`/categories/${category.name.toLowerCase()}`}
+              key={category.id}
+            >
               <div className="cursor-pointer text-center group">
                 <div className="overflow-hidden rounded-full mb-2 w-20 h-20 mx-auto relative">
                   <Image

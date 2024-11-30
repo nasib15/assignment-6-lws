@@ -7,7 +7,7 @@ const categories = getCategories();
 
 export const getRecipesByCategory = (categoryName) => {
   const categoryId = categories.find(
-    (category) => category.name === categoryName
+    (category) => category.name.toLowerCase() === categoryName
   )?.id;
 
   return recipes.filter((recipe) => recipe.category_id === categoryId);

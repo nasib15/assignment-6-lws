@@ -15,7 +15,7 @@ const RecipePage = ({ params }) => {
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-4xl font-bold mb-2">
-            {recipe}{" "}
+            {recipe.charAt(0).toUpperCase() + recipe.slice(1)}{" "}
             <span className="text-gray-500 text-2xl font-normal">
               ({recipes?.length} Recipes)
             </span>

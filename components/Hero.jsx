@@ -12,9 +12,9 @@ const Hero = () => {
   const heroRecipeId = heroRecipe.category_id;
 
   const categories = getCategories();
-  const heroCategoryName = categories.find(
-    (category) => category.id === heroRecipeId
-  ).name;
+  const heroCategoryName = categories
+    .find((category) => category.id === heroRecipeId)
+    ?.name.toLowerCase();
 
   const { title, description, thumbnail } = heroRecipe;
 
