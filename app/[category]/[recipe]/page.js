@@ -1,8 +1,10 @@
 import { SaveIcon, ShareIcon } from "@/components/Icons/SVG";
 import avatar from "@/public/assets/profile.png";
+import { getRecipesByCategory } from "@/utils/getRecipesByCategory";
 import { getSingleRecipeByCategory } from "@/utils/getSingleRecipeByCategory";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import Image from "next/image";
+import Link from "next/link";
 
 const RecipeDetailsPage = ({ params }) => {
   const recipe = getSingleRecipeByCategory(
@@ -10,8 +12,20 @@ const RecipeDetailsPage = ({ params }) => {
     params.recipe.replace(/%20/g, " ").replace(/%3A/g, ":")
   );
 
+  const { category } = params;
+
+  //   get all recipes under a category
+  const recipes = getRecipesByCategory(category);
+
+  //   get all recipes except the current recipe
+  const relatedRecipes = recipes?.filter(
+    (recipe) =>
+      recipe?.title !== params.recipe.replace(/%20/g, " ").replace(/%3A/g, ":")
+  );
+
   return (
     <main className="container mx-auto px-4 mt-[100px]">
+      {/* recipe details */}
       <article>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">{recipe?.title}</h1>
         <div className="flex items-center space-x-4 mb-6">
@@ -103,6 +117,27 @@ const RecipeDetailsPage = ({ params }) => {
           technique cup; Cover smoker soy sauce.
         </p>
       </article>
+
+      {/* you might also like */}
+      {relatedRecipes?.length > 0 && (
+        <section className="my-12">
+          <h2 className="text-3xl font-bold mb-8">You might also like</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {relatedRecipes?.map((recipe) => (
+              <div key={recipe?.title}>
+                <Link href={`/${category}/${recipe?.title}`}>
+                  <Image
+                    src={getThumbnailImage(recipe?.thumbnail)}
+                    alt={recipe?.title}
+                    className="w-full h-60 object-cover rounded-lg mb-2"
+                  />
+                </Link>
+                <h3 className="font-semibold">{recipe?.title}</h3>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 };
