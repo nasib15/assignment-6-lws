@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-padding-top: 100px;
+  }
+
   body {
     font-family: var(--font-inter);
   }
+  
   h1,
   h2,
   h3 {

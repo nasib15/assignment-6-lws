@@ -97,28 +97,28 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="mt-8 pt-8 border-t border-gray-200 flex justify-between items-center">
-          <p class="text-sm text-gray-600">
+        <div className="mt-8 pt-8 border-t border-gray-200 flex justify-between items-center">
+          <p className="text-sm text-gray-600">
             © 2020 LWS Kitchen - All rights reserved
           </p>
-          <div class="flex space-x-4">
+          <div className="flex space-x-4">
             <Link
               href="https://twitter.com"
-              class="text-gray-400 hover:text-orange-500"
+              className="text-gray-400 hover:text-orange-500"
               target="_blank"
             >
               <TwitterIcon />
             </Link>
             <Link
               href="https://instagram.com"
-              class="text-gray-400 hover:text-orange-500"
+              className="text-gray-400 hover:text-orange-500"
               target="_blank"
             >
               <InstagramIcon />
             </Link>
             <Link
               href="https://youtube.com"
-              class="text-gray-400 hover:text-orange-500"
+              className="text-gray-400 hover:text-orange-500"
               target="_blank"
             >
               <YoutubeIcon />

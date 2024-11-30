@@ -21,12 +21,14 @@ const PopularCategories = () => {
           {sortedCategories?.map((category) => (
             <div key={category.id} className="cursor-pointer text-center group">
               <div className="overflow-hidden rounded-full mb-2 w-20 h-20 mx-auto relative">
-                <Image
-                  src={getThumbnailImage(category.image)}
-                  alt={category.name}
-                  fill={true}
-                  className="object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+                <Link href={`/categories/${category.name}`}>
+                  <Image
+                    src={getThumbnailImage(category.image)}
+                    alt={category.name}
+                    fill={true}
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </Link>
               </div>
               <p className="transition-transform duration-300 group-hover:scale-105">
                 {category.name}

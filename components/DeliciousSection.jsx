@@ -1,6 +1,8 @@
+import { getCategoryName } from "@/utils/getCategoryName";
 import { getSortedRatingRecipes } from "@/utils/getSortedRatingRecipes";
 import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import Image from "next/image";
+import Link from "next/link";
 import { StarIcon } from "./Icons/SVG";
 
 const DeliciousSection = () => {
@@ -12,13 +14,17 @@ const DeliciousSection = () => {
       <div className="grid md:grid-cols-3 gap-8">
         {sortedRatingRecipes?.map((recipe, index) => (
           <div key={index}>
-            <Image
-              src={getThumbnailImage(recipe.thumbnail)}
-              width={300}
-              height={300}
-              alt={recipe.title}
-              className="w-full h-[300px] object-cover rounded-lg mb-4"
-            />
+            <Link
+              href={`/${getCategoryName(recipe.category_id)}/${recipe.title}`}
+            >
+              <Image
+                src={getThumbnailImage(recipe.thumbnail)}
+                width={300}
+                height={300}
+                alt={recipe.title}
+                className="w-full h-[300px] object-cover rounded-lg mb-4"
+              />
+            </Link>
             <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
             <div className="flex items-center text-yellow-500 mb-2">
               <StarIcon />

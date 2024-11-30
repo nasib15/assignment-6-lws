@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="./recipes.html" className="hover:text-orange-500">
+            <Link href="#recipes" className="hover:text-orange-500">
               Latest Recipes
             </Link>
           </li>
