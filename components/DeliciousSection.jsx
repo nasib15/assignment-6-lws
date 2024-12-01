@@ -4,7 +4,7 @@ import { getThumbnailImage } from "@/utils/getThumbnailImage";
 import getTitleByHyphen from "@/utils/getTitleByHyphen";
 import Image from "next/image";
 import Link from "next/link";
-import { StarIcon } from "./Icons/SVG";
+import StarRating from "./StarRating";
 
 const DeliciousSection = () => {
   const sortedRatingRecipes = getSortedRatingRecipes().slice(0, 3);
@@ -30,11 +30,7 @@ const DeliciousSection = () => {
               />
               <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
               <div className="flex items-center text-yellow-500 mb-2">
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
+                <StarRating rating={recipe.rating?.average_rating} />
                 <span className="text-gray-500 text-sm ml-1">
                   ({recipe.rating?.rating_count})
                 </span>
