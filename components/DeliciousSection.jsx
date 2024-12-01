@@ -32,7 +32,7 @@ const DeliciousSection = () => {
               <div className="flex items-center text-yellow-500 mb-2">
                 <StarRating rating={recipe.rating?.average_rating} />
                 <span className="text-gray-500 text-sm ml-1">
-                  ({recipe.rating?.rating_count})
+                  ({recipe.rating?.average_rating})
                 </span>
               </div>
               <p className="text-gray-600">{recipe.cooking_time}</p>

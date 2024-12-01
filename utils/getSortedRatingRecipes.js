@@ -4,6 +4,6 @@ const recipes = getRecipes();
 
 export const getSortedRatingRecipes = () => {
   return recipes.sort(
-    (a, b) => b.rating?.rating_count - a.rating?.rating_count
+    (a, b) => b.rating?.average_rating - a.rating?.average_rating
   );
 };
